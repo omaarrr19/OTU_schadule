@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <title>الجدول المشترك - Group 1 & Group 3</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: #f0f4f8;
+      color: #2d3748;
+      padding: 20px;
+      direction: rtl;
+    }
+    .card {
+      background: #fff;
+      max-width: 950px;
+      margin: 0 auto;
+      padding: 25px;
+      border-radius: 14px;
+      box-shadow: 0 5px 20px rgba(0,0,0,0.08);
+    }
+    h2 {
+      text-align: center;
+      color: #1a365d;
+      margin-bottom: 20px;
+      border-bottom: 2px solid #e2e8f0;
+      padding-bottom: 12px;
+    }
+    h3 {
+      color: #2b6cb0;
+      margin-top: 25px;
+      margin-bottom: 12px;
+      border-right: 5px solid #3182ce;
+      padding-right: 10px;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-bottom: 25px;
+    }
+    th, td {
+      border: 1px solid #cbd5e0;
+      padding: 9px 10px;
+      text-align: center;
+      font-size: 13.5px;
+    }
+    th {
+      background: #edf2f7;
+      color: #1a202c;
+      font-weight: 700;
+    }
+    .g1-col {
+      background: #f7fafc;
+      width: 38%;
+    }
+    .g3-col {
+      background: #f7fafc;
+      width: 38%;
+    }
+    .shared {
+      background: #ebf8ff;
+      color: #2b6cb0;
+      font-weight: 600;
+    }
+    .lab {
+      background: #e6fffa;
+      color: #234e52;
+      font-weight: bold;
+    }
+    .break {
+      color: #a0aec0;
+      font-style: italic;
+    }
+    .notes {
+      background: #fffaf0;
+      border-right: 4px solid #dd6b20;
+      padding: 12px 15px;
+      border-radius: 6px;
+      font-size: 13px;
+      line-height: 1.6;
+    }
+  </style>
+</head>
+<body>
+
+<div class="card">
+  <h2>الجدول الأكاديمي الموحد والمقارن — (G1 & G3) سوفت وير</h2>
+
+  <!-- الأسبوع الأول -->
+  <h3>الأسبوع الأول (Week 1)</h3>
+  <table>
+    <thead>
+      <tr>
+        <th style="width: 12%;">اليوم</th>
+        <th style="width: 16%;">الوقت</th>
+        <th class="g1-col">Group 1 (G1)</th>
+        <th class="g3-col">Group 3 (G3)</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td rowspan="4">الثلاثاء</td>
+        <td>09:00 - 10:30</td>
+        <td class="lab">معمل Java Lab (Lab 1)</td>
+        <td class="shared">محاضرة Java (H1B)</td>
+      </tr>
+      <tr>
+        <td>10:30 - 12:00</td>
+        <td class="shared">محاضرة Java (H1B)</td>
+        <td class="break">استراحة</td>
+      </tr>
+      <tr>
+        <td>12:00 - 01:30</td>
+        <td class="break">استراحة</td>
+        <td class="lab">معمل Java Lab (Lab 1)</td>
+      </tr>
+      <tr>
+        <td>01:30 - 03:00</td>
+        <td colspan="2" class="shared">معاً: محاضرة Data Communication (H1B)</td>
+      </tr>
+
+      <tr>
+        <td rowspan="4">الأربعاء</td>
+        <td>09:00 - 10:30</td>
+        <td colspan="2" class="shared">معاً: محاضرة Advanced Programming in C (H2B)</td>
+      </tr>
+      <tr>
+        <td>12:00 - 01:30</td>
+        <td colspan="2" class="shared">معاً: محاضرة Microprocessor (W11)</td>
+      </tr>
+      <tr>
+        <td>01:30 - 03:00</td>
+        <td colspan="2" class="shared">معاً: محاضرة Computer Graphics (H2B)</td>
+      </tr>
+      <tr>
+        <td>03:00 - 04:30</td>
+        <td class="lab">معمل Advanced C (Lab 1)</td>
+        <td class="break">انتهاء اليوم</td>
+      </tr>
+
+      <tr>
+        <td>الخميس</td>
+        <td>10:30 - 12:00</td>
+        <td class="lab">معمل Graphics Lab (Lab 1)</td>
+        <td class="break">إجازة</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <!-- الأسبوع الثاني -->
+  <h3>الأسبوع الثاني (Week 2)</h3>
+  <table>
+    <thead>
+      <tr>
+        <th style="width: 12%;">اليوم</th>
+        <th style="width: 16%;">الوقت</th>
+        <th class="g1-col">Group 1 (G1)</th>
+        <th class="g3-col">Group 3 (G3)</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td rowspan="3">الثلاثاء</td>
+        <td>09:00 - 10:30</td>
+        <td colspan="2" class="shared">معاً: محاضرة Java Programming II (H1B)</td>
+      </tr>
+      <tr>
+        <td>10:30 - 12:00</td>
+        <td class="lab">معمل Microprocessor (Lab 2)</td>
+        <td class="break">استراحة</td>
+      </tr>
+      <tr>
+        <td>12:00 - 01:30</td>
+        <td colspan="2" class="shared">معاً: محاضرة Data Communication (H1B)</td>
+      </tr>
+
+      <tr>
+        <td rowspan="4">الأربعاء</td>
+        <td>09:00 - 10:30</td>
+        <td colspan="2" class="shared">معاً: محاضرة Advanced Programming in C (H2B)</td>
+      </tr>
+      <tr>
+        <td>12:00 - 01:30</td>
+        <td class="shared">محاضرة Microprocessor (W11)</td>
+        <td class="lab">معمل Microprocessor (Lab 2)</td>
+      </tr>
+      <tr>
+        <td>01:30 - 03:00</td>
+        <td colspan="2" class="shared">معاً: محاضرة Computer Graphics (H2B)</td>
+      </tr>
+      <tr>
+        <td>03:00 - 04:30</td>
+        <td class="break">انتهاء اليوم</td>
+        <td class="lab">معمل Advanced C (Lab 1)</td>
+      </tr>
+
+      <tr>
+        <td>الخميس</td>
+        <td>10:30 - 12:00</td>
+        <td class="break">إجازة</td>
+        <td class="lab">معمل Graphics Lab (Lab 2)</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <div class="notes">
+    <strong>ملاحظة هامة للمجموعتين:</strong><br>
+    • الخانات الزرقاء توضح الأوقات التي تلتقي فيها المجموعتان معاً في نفس المحاضرة والقاعة.<br>
+    • في الأسبوع الثاني (الأربعاء 12:00)، يحضر G3 معمل المايكرو أساسياً، بينما يحضر G1 المحاضرة في موعدها (W11).
+  </div>
+</div>
+
+</body>
+</html>
